@@ -5,11 +5,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BaralhoComponent } from './baralho/baralho.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MesaComponent } from './mesa/mesa.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    BaralhoComponent
+    BaralhoComponent,
+    MesaComponent
   ],
   imports: [
     BrowserModule,
